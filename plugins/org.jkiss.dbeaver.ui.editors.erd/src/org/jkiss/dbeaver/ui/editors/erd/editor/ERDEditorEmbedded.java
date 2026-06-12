@@ -203,7 +203,7 @@ public class ERDEditorEmbedded extends ERDEditorPart
         if (node == null) {
             return null;
         }
-        return node.getOwnerProject();
+        return node.getOwnerProjectOrNull();
     }
 
     @Nullable
